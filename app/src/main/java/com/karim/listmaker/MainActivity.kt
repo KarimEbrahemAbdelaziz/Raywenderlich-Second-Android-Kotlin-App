@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
                     .setAction("Action", null).show()
         }
 
-        listsRecyclerView = findViewById(R.id.lists_recycler_iew)
+        listsRecyclerView = findViewById(R.id.lists_recycler_view)
         listsRecyclerView.layoutManager = LinearLayoutManager(this)
         listsRecyclerView.adapter = ListSelectionRecyclerViewAdapter()
     }
